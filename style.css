@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color:hsl(32.73deg 57.89% 96.27%);
+}
+span{
+    color: hsl(17.08deg 63.16% 44.71%);;
+}
+.sun{
+    display: flex;
+    margin: 15px;
+    
+}
+.sun h1{
+    font-size: 25px;
+}
+.cone1{
+    display: flex;
+    margin-top: 25px;
+}
+.cone1 h3{
+    font-size: 15px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+.cone11{
+    display: flex;
+    margin-top: 25px;
+
+}
+.cone11 h3{
+    font-size: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+.cone12{
+    display: flex; 
+    margin-top: 25px;
+}
+.cone12 h3{
+    font-size: 15px;
+    padding-left: 15px;
+}
+.cone13{
+    display: flex;
+    margin-top: 25px;
+    padding-top: 15px;
+    
+}
+.cone13 h3 {
+     font-size: 15px;
+     padding-left: 15px;
+     padding-top: 5px;
+}
+.cone{
+    margin-left: 25px;
+}
