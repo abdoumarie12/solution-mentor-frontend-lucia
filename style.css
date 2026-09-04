@@ -107,7 +107,75 @@ span{
     font-size: 12px;
 }
 .abd{
-    border-bottom: 2px dotted rgb(152, 149, 149);
+    border-bottom: 2px dotted gray;
     
+}
+.d-flex h2{
+    font-size: 13px;
+}
+.fs{
+    font-size: 13px;
+}
+.dib{
+    border-top: 2px dotted gray;
+}
+.coo{
+    border-top: 1px solid black ;
+}
+.bordure{
+    width: 150px;
+    height: 20px;
+    background: repeating-linear-gradient(to right,
+    #555 0px, #555 4px, #eee 4px, #eee 12px,
+    #999 12px, #999 15px, #eee 15px, #eee 25px);
+}
+.abdoul p{
+    font-size: 11px;
+    color: gray;
+}
+.rafiou h3{
+    font-size: 30px;
+}
+.alla p{
+    font-size: 15px;
+}
+.abdoul{
+    font-size: 13px;
+    color: gray;
+}
+.cool{
+    box-shadow: 0 4px 10px gray;
+    top: 10px;
+    left: 10px;
+    transform: rotate(-7deg);
+    z-index: 1; 
+}
+.dieu{
+    /* background: linear-gradient(160deg, #C6432E, #A8341F); */
+    background-color: hsl(17, 64%, 45%);
+    top: 60px;
+    left: 140px;
+    transform:rotate(5deg) ;
+    z-index: 2;
+    
+    /* transform: translateX(-20px); */
+}
+.abdoule p{
+    font-size: 11px;
+}
+.allal p{
+    font-size: 15px;
+    
+}
+.abdoule p {
+height:100px;
+padding-top: 100px;
+}
+.allale{
+    font-size: 15px;
+    padding-top: 50px;
+}
+.pon{
+    box-shadow: 0 10px 25px rgba(185,50, 30, 0.4);
 }
 
