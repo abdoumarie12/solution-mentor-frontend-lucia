@@ -2,12 +2,52 @@
     padding: 0px;
     margin: 0px;
 }
+/* Fraunces */
+@font-face {
+    font-family: "Fraunces";
+    src: url("/hotel-booking-confirmation-page-main/assets/fonts/fraunces/Fraunces-Italic-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "fraunces";
+    src: url("/hotel-booking-confirmation-page-main/assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+/* DM Sans */
+@font-face {
+    font-family: "dm sans";
+    src: url("/hotel-booking-confirmation-page-main/assets/fonts/dm-sans/DMSans-VariableFont_opsz\,wght.ttf");
+    
+}
+
+/* DM Mono */
+@font-face {
+    font-family: "dm-mono";
+    src: url("/hotel-booking-confirmation-page-main/assets/fonts/dm-mono/DMMono-Medium.ttf");
+    
+}
+
+@font-face {
+    font-family: "dm-mono";
+    src: url("/hotel-booking-confirmation-page-main/assets/fonts/dm-mono/DMMono-Regular.ttf");
+}
+.pip{
+    font-family: "dm-mano";
+    font-style: italic;
+    font-weight: 400;
+}
+
 body{
     
     background-color:hsl(32.73deg 57.89% 96.27%);
 }
 span{
-    color: hsl(17.08deg 63.16% 44.71%);;
+    color: hsl(17.08deg 63.16% 44.71%);
 }
 .sun{
     display: flex;
@@ -25,6 +65,7 @@ span{
     font-size: 15px;
     padding-left: 15px;
     padding-bottom: 20px;
+    
 }
 .cone11{
     display: flex;
@@ -50,6 +91,7 @@ span{
     font-size: 11px;
     margin-left: 5px;
     color: white;
+
 }
 
 .cone11 h3{
@@ -89,7 +131,7 @@ span{
 }
 .cone{
     margin-left: 25px;
-    height: 500px;
+    height: 700px;
 }
 .cone13 img{
     margin-left: 5px;
@@ -178,4 +220,94 @@ padding-top: 100px;
 .pon{
     box-shadow: 0 10px 25px rgba(185,50, 30, 0.4);
 }
+.span{
+    background-color: hsl(17, 64%, 45%);
+    width: 45px;
+    height: 35px;
+    border-radius: 5px;
+}
+.span img{
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.spane{
+    background-color: hsl(232.11deg 52.29% 57.25%);
+    width: 45px;
+    height: 35px;
+    border-radius: 5px;
+}
+.spane img{
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.coul{
+   color:  hsl(232.11deg 52.29% 57.25%);
+
+
+}
+.couler{
+    color: hsl(340.18deg 45.9% 52.16%);
+}
+.spanee{
+    background-color: hsl(340.18deg 45.9% 52.16%);
+    width: 45px;
+    height: 35px;
+    border-radius: 5px;
+}
+.spanee img{
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.adf{
+    font-size: 14px;
+}
+.som{
+    box-shadow: 0 4px 10px gray;
+}
+.maps h4{
+    font-size: 11px;
+}
+.maps h5{
+    font-size: 14px;
+    color: #999;
+}
+.maps{
+    background-color: hsl(40deg 25.71% 93.14%);
+}
+.bg{
+    font-size: 10px;
+    background-color:  hsl(40deg 25.71% 93.14%) ;
+   border: 1px solid rgb(215, 210, 210);
+   height: 15px;
+   margin-left: 5px;
+   border-radius: 5px;
+}
+.pipo{
+    box-shadow: 0 4px 10px hsl(232.11deg 52.29% 57.25%);
+}
+.pipos{
+    box-shadow: 0 4px 10px hsl(340.18deg 45.9% 52.16%);
+}
+.cone1 h3{
+    /* padding-top: 10px; */
+}
+.yetere{
+    display: flex;
+    justify-content: space-between;
+}
+.meteo{
+    position: relative;
+    overflow: hidden;
+}
+.soleil{
+    position:absolute;
+    top: -20px;
+    right: -30px;
+    width: 120px;
+    height: 100px;
+    background-color: #f2c14e;
+    border-radius: 50%;
+    box-shadow: 0 4px 15px  rgba(0, 0, 0, 0.15);
+}
+
 
