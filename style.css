@@ -2,6 +2,14 @@
     padding: 0px;
     margin: 0px;
 }
+.yetere {
+    display: flex;
+    gap: 24px;
+}
+.yetere > div {
+    flex: 1 1 0; /* répartit l'espace restant équitablement au lieu d'imposer 33.33% fixe */
+}
+
 /* Fraunces */
 @font-face {
     font-family: "Fraunces";
@@ -40,6 +48,30 @@
     font-family: "dm-mano";
     font-style: italic;
     font-weight: 400;
+}
+.nav-item.active .nav-link {
+    background-color: white;
+    border-radius: 12px;
+    padding: 10px 14px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+.nav-link {
+    padding: 10px 14px;
+}
+.badge.bg-danger {
+    margin-left: auto;
+}
+.navbar-nav .nav-item {
+    margin-bottom: 8px;
+}
+
+.dol{
+    border-right: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+}
+
+.bg-creme {
+    background-color: hsl(32.73deg 57.89% 96.27%) !important;
 }
 
 body{
@@ -189,19 +221,22 @@ span{
     box-shadow: 0 4px 10px gray;
     top: 10px;
     left: 10px;
-    transform: rotate(-7deg);
+    transform: rotate(-6deg);
     z-index: 1; 
+   
 }
 .dieu{
     /* background: linear-gradient(160deg, #C6432E, #A8341F); */
     background-color: hsl(17, 64%, 45%);
     top: 60px;
     left: 140px;
-    transform:rotate(5deg) ;
+    transform:rotate(4deg) ;
     z-index: 2;
-    
+    box-shadow: 0 15px 35px rgba(185, 60, 30, 0.25);
+   
     /* transform: translateX(-20px); */
 }
+
 .abdoule p{
     font-size: 11px;
 }
@@ -209,6 +244,8 @@ span{
     font-size: 15px;
     
 }
+
+
 .abdoule p {
 height:100px;
 padding-top: 100px;
@@ -310,19 +347,28 @@ padding-top: 100px;
     box-shadow: 0 4px 15px  rgba(0, 0, 0, 0.15);
 }
 @media (max-width: 768px) {
-    @media (max-width: 768px) {
-        .cool,
-        .dieu {
-            top: auto;
-            left: auto;
-            transform: none;
-            z-index: auto;
-        }
-        .cool {
-            margin-bottom: 30px;
-        }
-        
+    .cool,
+    .dieu {
+        top: auto;
+        left: auto;
+        transform: none;
+        z-index: auto;
+    }
+    .cool {
+        margin-bottom: 30px;
     }
 }
 
-
+@media (min-width: 768px) {
+    .header-responsive {
+        height: 100vh;
+        width: 280px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        overflow-y: auto;
+    }
+    main {
+        margin-left: 280px;
+    }
+}
